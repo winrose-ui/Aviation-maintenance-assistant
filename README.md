@@ -1,50 +1,45 @@
-Aviation Maintenance Assistant ✈️
+Aviation Maintenance Log Validator ✈️
 
-Why I Started This Project
+An open-source engineering project exploring how software can detect missing information and data-quality issues in aviation maintenance records.
 
-I am an avionics engineering student who wants to use what I learn to solve real problems in aviation. I created this project idea because I want to explore how technology can make some maintenance tasks easier for aviation technicians.
+The Problem
 
-I am still learning, so this project is an opportunity for me to research a real problem, develop my technical skills, and build something useful step by step.
+Maintenance records need to be clear, complete, and consistent. Missing fields or invalid dates can make records harder to review.
 
-The Problem I Want to Explore
+Our Solution
 
-Aviation technicians need to record faults clearly, keep track of maintenance observations, and communicate technical information accurately. I want to investigate whether a simple digital tool could help organize this information and make recurring issues easier to review.
+We are developing a Python-based prototype that generates test records, checks required information, flags data-quality issues, and displays results through a simple dashboard.
 
-This is a problem I want to research further with feedback from people who have practical aviation maintenance experience.
+Technology Stack
 
-My Proposed Idea
+- Python
+- pandas
+- Streamlit
+- JSON
 
-The Aviation Maintenance Assistant is a project to explore a simple tool that could help users:
+Current Features
 
-- Record reported maintenance faults.
-- Organize technical observations.
-- Review recurring issues.
-- Prepare clear summaries for further investigation.
+- Fictional maintenance record generation
+- Required-field validation
+- Date-format checks
+- Basic results dashboard
+- Automated validation tests
 
-These are proposed features, not a completed or tested system.
+Safety Notice
 
-Who I Want to Help
-
-- Aircraft maintenance technicians.
-- Avionics technicians.
-- Aviation engineering students.
-
-My Plan
-
-1. Research the challenges technicians face when recording and tracking faults.
-2. Learn from relevant technical resources and feedback from potential users.
-3. Decide which problem is most useful to address first.
-4. Develop a simple prototype using sample data.
-5. Test the prototype and improve it based on feedback.
-
-Safety First
-
-This project is for educational and research purposes. It will not replace approved aircraft maintenance documentation, qualified technical judgment, or required maintenance procedures.
-
-About Me
-
-I am an avionics engineering student interested in aircraft systems, electronics, and technology. I want to keep learning, build practical skills, and work towards engineering solutions that address real-world problems.
+This is an educational prototype. It does not determine aircraft airworthiness, authorize maintenance, or certify regulatory compliance. Test records are fictional and must not be treated as real aircraft records.
 
 Project Status
 
-Currently in the idea and research stage. The problem definition, features, and design may change as I learn more.
+Early development. Features are being built and tested.
+
+Future Development
+
+- Improve validation and error reporting
+- Connect the dashboard to the validation engine
+- Research existing tools and publicly available regulatory requirements
+- Test the application with aviation students
+
+Contributing
+
+Suggestions, feedback, and contributions to this educational project are welcome.
