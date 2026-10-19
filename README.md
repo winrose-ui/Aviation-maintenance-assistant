@@ -1,4 +1,4 @@
-Aviation Maintenance Log Validator ✈️
+Aviation Maintenance Log Validator 
 
 An open-source engineering project exploring how software can detect missing information and data-quality issues in aviation maintenance records.
 
